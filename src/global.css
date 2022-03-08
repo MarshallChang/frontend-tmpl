@@ -1,0 +1,74 @@
+html,
+body,
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #000; */
+  font-size: 16px;
+  font-family: "Helvetica Neue", "Segoe UI", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* dialog global style */
+.dialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  overflow-y: auto;
+}
+
+.dialog-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.d-content {
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.enter {
+  transition: all 0.2s ease-out;
+}
+
+.content-enter-from {
+  opacity: 0;
+  transform: scale(0.85);
+}
+
+.content-enter-to {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.overlay-enter-from {
+  opacity: 0;
+}
+
+.overlay-enter-to {
+  opacity: 1;
+}
