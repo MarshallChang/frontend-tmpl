@@ -30,6 +30,8 @@
     "@react-three/drei": "^8.9.0",
     "@react-three/fiber": "^7.0.26",
     "ahooks": "^3.1.9",
+    "eslint": "^8.10.0",
+    "eslint-plugin-react": "^7.29.3",
     "ethers": "^5.5.4",
     "react": "17.x",
     "react-dom": "17.x",
